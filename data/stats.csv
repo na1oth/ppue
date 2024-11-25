@@ -1,0 +1,28 @@
+NAME|TYPE|BASE|PER|ADD|RESOLVE
+Agility|ABILITIES|1|1|0|2
+Intellect|ABILITIES|1|1|0|2
+Might|ABILITIES|1|1|0|2
+Perception|ABILITIES|1|1|0|2
+Toughness|ABILITIES|1|1|0|2
+Willpower|ABILITIES|1|1|0|2
+Academics|TALENTS|1|1|0|0
+Charm|TALENTS|1|1|0|0
+Command|TALENTS|1|1|0|0
+Covert|TALENTS|1|1|0|0
+Investigation|TALENTS|1|1|0|0
+Medicine|TALENTS|1|1|0|0
+Professional|TALENTS|1|1|0|0
+Science|TALENTS|1|1|0|0
+Streetwise|TALENTS|1|1|0|0
+Survival|TALENTS|1|1|0|0
+Technology|TALENTS|1|1|0|0
+Vehicles|TALENTS|1|1|0|0
+Edge|INFO|0|0|0|0
+caps|INFO|Trait Cap 12d|0|0|0
+Resolve|INFO|0|0|0|0
+packages|INFO|None (1d / 1d)|0|18|0
+Health|INFO|0|0|0|0
+Total|INFO|0|0|0|0
+cname|TEXT|Nom de guerre|0|0|0
+rname|TEXT|Real Name|0|0|0
+notes|TEXT|Describe your character here.|0|0|0

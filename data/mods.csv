@@ -1,0 +1,212 @@
+NAME|ADD|PER|TYPE|NEWRANGE|POWER|NOTES
+Independent Forms|0|-1|||Alternate Form|Each form has separate memories.
+Calling|2|0|||Animal Control|Gathers animals at up to extreme range
+Speech|2|0|||Animal Empathy|Speak with animals
+Enhanced|4|0|||Animal Mimicry|Use Power rank for one animal trait. 
+Selection|4|0|||Animal Mimicry|Mimic multiple at -1d per additional animal.
+Activated|-1|0|||Armor|Power stops if unconscious
+Reactive|-2|0|||Armor|Armor becomes an active defense
+Spines|-2|0|||Aura|No protection from physical attacks.
+Block|2|0|||Blast|Ranged Active Defense but not vs area.
+Block Missiles|4|0|||Blast|Ranged Active Defense vs physical but not area.
+Melee Weapon|2|0|||Blast|Melee Active Defense and melee stunts
+Ranged Weapon Master|-1|0|||Blast|May use power rank for a weapon attack value
+Greater|6|0|||Buff|May increase bonus by +1d/resolve up to +3d.
+Devices|0|2|||Constructs|
+Deafen|-1|0|||Dazzle|
+Long Range|1|0|||Detection|
+Dispel Also X|0|0.5|||Dispel|
+Drain Also X|0|0.5|||Drain|
+Dimensional Portal|2|0|||Dimensional Travel|
+Matter Creation|0|1|||Elemental Control|
+Only Control|0|-1|||Elemental Control|
+Pheromones|-2|0|||Emotion Control|
+Also Corrosive|2|0|||Energy Absorption|
+Also Arcane|2|0|||Energy Absorption|
+Also Cold|2|0|||Energy Absorption|
+Also Electrical|2|0|||Energy Absorption|
+Also Laser|2|0|||Energy Absorption|
+Also Heat|2|0|||Energy Absorption|
+Also Radiation|2|0|||Energy Absorption|
+Also Vibration|2|0|||Energy Absorption|
+Kinetic Energy|0|2|||Energy Absorption|Counts as the first type of Energy Absorbed
+Immobilize|2|0|||Ensnare|
+Line|2|0|||Ensnare|
+Gliding|-2|0|||Flight|
+Levitation|-4|0|||Flight|
+Slides|-2|0|||Flight|
+Spaceflight|2|0|||Flight|
+Wings|-2|0|||Flight|
+Collapsible|-2|0|||Force Field|
+Inviolate|0|1|||Force Field|
+Permeable|6|0|||Force Field|
+Ward|-1|0|||Force Field|
+Other Energy|2|0|||Form, Energy|
+Repair|-2|0|||Healing|
+Freezing|0|1|||Hyper Breath|
+Mental|0|2|||Illusions|
+Vulnerable|-1|0|||Immortality|
+Mindless|9|0|||Inanimate|
+Cloaking|3|0|||Invisibility|
+Jamming|-3|0|||Invisibility|
+Hyper Translation|2|0|||Languages|
+Polyglot|1|0|||Languages|
+Vampirism|1|0|||Life Drain|
+Control|4|0|||Luck|
+Unbelievable|0|1|||Luck|
+Interface|-2|0|||Machine Control|
+Chemical|-2|0|||Mind Control|
+Hypnosis|-2|0|||Mind Control|
+Also (Nullify)|0|1|||Nullify|
+Broad|0|2|||Omni-Power|
+Arsenal|0|0|||Omni-Power|
+Gadgets|0|2|||Omni-Power|
+Gizmos|0|0|||Omni-Power|
+Quantum Control|0|2|||Omni-Power|
+Sensors|0|0|||Omni-Power|
+Sorcery|0|2|||Omni-Power|
+Intangible|3|0|||Phasing|
+Meld|4|0|||Possession|
+Cloak Mind|2|0|||Psi-Screen|
+Absorption Also X|0|1|||Power Absorption|
+Mimicry Also X|0|1|||Power Mimicry|
+Costume|-1|0|||Quick Change|
+Sonar|-1|0|||Radar|
+Tremor Sense|-1|0|||Radar|
+Per Turn|6|0|||Regeneration|
+Per Hour|-6|0|||Regeneration|
+Hover|2|0|||Running|
+Gate Portal|2|0|||Star Gate|
+Distant Stretching|2|0|||Stretching|
+Extreme Stretching|4|0|||Stretching|
+Long Reach|-1|0|||Stretching|
+Deflect|4|0|||Strike|Active Ranged Defense but not vs area
+Deflect Missiles|2|0|||Strike|Active Ranged Defense vs physical but not area
+Grappling|2|0|||Strike|May use Strike for Grappling
+Reach/Throw|2|0|||Strike|Attack up to close range
+Sweep|4|0|||Strike|up to 90 degree arc
+Melee Weapon Master|-1|0|||Strike|May use power rank for a weapon attack value
+EMP|2|0|||Stun|
+Animals, type|0|1|||Summoning|
+Animals, variety|0|2|||Summoning|
+Automatons|0|1|||Summoning|
+Duplicates|0|2|||Summoning|
+Shooters|0|1|||Summoning|
+Serious Powers|0|4|||Summoning|
+Minor Powers|0|1|||Summoning|
+Moderate Power|0|2|||Summoning|
+Threat 2d|0|0|||Summoning|
+Threat 4d|0|1|||Summoning|
+Threat 6d|0|2|||Summoning|
+Threat 8d|0|3|||Summoning|
+Threat 10d|0|4|||Summoning|
+Threat 12d|0|5|||Summoning|
+Threat 14d|0|6|||Summoning|
+Threat 16d|0|7|||Summoning|
+Threat 18d|0|8|||Summoning|
+Threat 20d|0|9|||Summoning|
+Analytic Sense|1|0|||Super Senses|
+Astral Sight|1|0|||Super Senses|
+Circular Vision|1|0|||Super Senses|
+Enhanced Hearing|1|0|||Super Senses|
+Hypersensitive Touch|1|0|||Super Senses|
+Lie Detection|3|0|||Super Senses|
+Microscopic Vision|1|0|||Super Senses|
+Night Vision|3|0|||Super Senses|
+Radio Hearing|1|0|||Super Senses|
+Telescopic Vision|1|0|||Super Senses|
+Thermal Vision|2|0|||Super Senses|
+Tracking Sent|1|0|||Super Senses|
+True Sight|6|0|||Super Senses|
+Ultra Vision|2|0|||Super Senses|
+X-Ray Vision|6|0|||Super Senses|
+Lungs|-1|0|||Swimming|
+Natural|-2|0|||Swing Line|
+Impel|-4|0|||Telekinesis|
+Alter Memories|6|0|||Telepathy|
+Cloak Others|2|0|||Telepathy|
+Dream Travel|2|0|||Telepathy|
+Empathy|-2|0|||Telepathy|
+Mind Link|2|0|||Telepathy|
+Medium|-2|0|||Teleportation|
+Warp Portal|2|0|||Teleportation|
+Time Portal|2|0|||Time Travel|
+Playback|1|0|||Total Recall|
+Tracking|3|0|||Tracer|
+Enhanced Animal|4|0|||Transformation, Animals|
+Affects Inanimate|1|0||||May affect one source of animate objects per choice.
+Area|4|0||||Up to 50 ft diameter chosen per use.
+Armor Piercing|2|0||||Bypasses mundane armor
+Blink|6|0||||Adds +2d to attack or defense chosen each turn.
+Boost|0|0||||
+Build-Up|-2|0||||Cannot be used in the first two turns
+Burnout|-4|0||||Roll 2d on a 6 or less out for the scene
+Carrier|6|0||||Inflicts a secondary attack after 1 dmg or 1 page of effect.
+Charges, 1/Day|-6|0||||One use per day
+Charges, 6|-1|0||||12 daily or 6 per scene
+Charges, 1|-3|0||||3 daily or 1 per scene
+Charges, 3|-2|0||||6 daily or 3 per scene
+Close, from ranged|-2|0||Close||Limits range from distant to close
+Close, from touch|2|0||Close||Upgrades touch to close range
+Concentration|-4|0||||Expires any action is taken including moving and defending
+Conditional, often|-1|0||||Only works under certain conditions
+Conditional, rare|-4|0||||Only works under certain conditions
+Conditional, usually|-2|0||||Only works under certain conditions
+Constant|-2|0||||Cannot be switched off
+Contagious|4|0||||Attacks anyone that touches the original target
+Costly*|-4|0||||Costs 1 resolve per use
+Degrades|-2|0||||Loses 1d per use over the scene
+Delay|-4|0||||Too long to be useful in combat
+Exclusive|-1|0||||Must be taken on 2+ powers which cannot be used together.
+Expansive*, 50 ft|6|0||||Req Area/Zone; Costs 1 resolve 
+Expansive*, 500 ft|12|0||||Req Area/Zone; Costs 1 resolve 
+Expansive*, 5000 ft|18|0||||Req Area/Zone; Costs 1 resolve 
+Fuse|2|0||||Delay up to willpower hours or control within extreme range.
+Harmful, -1/use|-1|0||||Take 1 damage per use
+Harmful, -d3/use|-2|0||||Take d3 damage per use
+Harmful, -d6/use|-4|0||||Take d6 damage per use
+Imbue|4|0||||Share with a touch up to willpower subjects
+Independent|6|0||||Power acts without an action
+Item|-1|0||||Specify item
+Limited, serious|-2|0||||
+Limited, severe|-4|0||||
+Limited, slight|-1|0||||
+LoS. Ranged|2|0||LoS||
+LoS, Touch|6|0||LoS||
+Ongoing|6|0||||
+Only Inanimate|-4|0||||Pick 1 source
+Only Inanimate, 2|-2|0||||Pick 2 sources
+Only Inanimate, any|-1|0||||
+Overkill|0|-1||||
+Overload|2|0||||
+Penetrating|0|1||||
+Phase Shift|4|0||||
+Ranged|4|0||Ranged||
+Readied|-2|0||||
+Recharge|-4|0||||
+Resisted|6|0||||
+Ricochet|2|0||||
+Selective|4|0||||
+Shutdown, rare|-1|0||||
+Shutdown, often|-4|0||||
+Shutdown, some|-2|0||||
+Side Effect, epic|-4|0||||
+Side Effect, harmful|-2|0||||
+Side Effect, minor|-1|0||||
+Signature|-1|0||||
+Rage|-2|0||||
+Requires Speech|-2|0||||
+Subdual|2|0||||
+Subtle|2|0||||
+Sustained|-2|0||||
+Touch|-4|0||Touch||
+Toxin|-2|0||||
+Trap|2|0||||
+Two-Handed|-1|0||||
+Uncontrolled|-2|0||||
+Undetectable|4|0||||
+Unreliable|-2|0||||
+Weak|0|-1||||
+Words|-1|0||||
+Zone|4|0||||Up to 25 ft diameter chosen per use
+Static Area|-2|0||||Specify Area Size

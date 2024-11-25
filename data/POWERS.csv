@@ -1,0 +1,131 @@
+NAME|TYPE|BASE|ADD|PER|RESOLVE|GRANTS|NOTES
+Adaptation|Self|0|12|0|-1||
+Alternate Form|Self|0|0|4|-1||Street/Low/Standard/High/Legendary/Iconic
+Animal Control|Ranged|0|0|1|2||
+Animal Empathy|Self|0|1|0|-1||
+Animal Mimicry|Self|0|0|2|2||
+Animation|Ranged|0|0|2|2||
+Armor|Self|Stat:Toughness * .5|0|1|2||
+Astral Projection|Self|0|12|0|-1||
+Attuned|Self|0|3|0|-1||
+Aura|Self|0|0|2|2||
+Banish|Ranged|0|0|1|2||
+Blast|Ranged|0|0|1|2||
+Blending|Self|0|3|0|-1||
+Blind|Ranged|0|0|0.5|2||
+Blind Fighting|Self|0|3|0|-1||
+Buff|Zone|0|12|0|-1||
+Clairvoyance|Self|0|9|0|-1||
+Cloud Minds|Ranged|0|0|1|2||
+Communications|Self|0|3|0|-1||
+Constructs|Ranged|0|0|3|2||
+Danger Sense|Self|Stat:Perception * 1|0|1|0||
+Darkness|Zone|0|0|6|2||
+Dazzle|Zone|0|0|1|2||
+Deflection|Self|0|0|1|2||
+Density|Self|0|0|1|2||
+Detection|Ranged|0|0|0.5|0||
+Determination|Self|0|0|5|1||
+Dimensional Travel|Self|0|6|0|-1||
+Dispel|Ranged|0|0|0.5|2||
+Drain|Ranged|0|0|0.5|2||
+Duplication|Self|0|0|25|-1||
+Elemental Control|Ranged|0|0|3|2||
+Emotion Control|Ranged|0|0|1|2||
+Energy Absorption|Self|0|0|1|2||
+Ensnare|Ranged|0|0|1|2||
+Evasion|Self|Stat:Agility * 1|0|0.5|2||
+Expertise|Pick Talent|0|0|0.5|0||
+Extra Limbs|Self|0|3|0|-1||
+Flight|Self|0|0|1|0||2mph/5mph/10mph/25mph/50mph/100mph/250mph/500mph/1kmph/2500mph/5kmph/10kmph/25kmph/50kmph/100kmph/250kmph/500kmph/1mmph/2mmph/5mmph/10mmph/25mmph/50mmph/100mmph
+Force Field|Self|0|0|1|2||
+Form, Energy|Self|0|0|3|2||
+Form, Gas|Self|0|6|0|-1||
+Form, Liquid|Self|0|12|0|-1||
+Form, Solid|Self|0|0|2|2||
+Gestalt|Self|0|3|0|-1||
+Growth|Self|0|0|1|2||7 ft/8 ft/9 ft/10 ft/12 ft/15 ft/30 ft/25 ft/30 ft/40 ft/50 ft/60 ft/75 ft/100 ft/125 ft/150 ft/200 ft/250 ft/300 ft/400 ft/500 ft/600 ft/800 ft/1000 ft
+Hard to Kill|Self|0|1|0|-1||
+Healing|Touch|0|0|1|2||
+Hibernation|Self|0|1|0|-1||
+Hyper Breath|Special|0|0|1|2||
+Illusions|Zone|0|0|1|2||
+Immortality|Self|0|3|0|-1||
+Immunity|Self|0|3|0|-1||
+Inanimate|Self|0|9|0|-1||
+Invisibility|Self|0|9|0|-1||
+Irritant|Zone|0|0|1|2||
+Languages|Self|0|1|0|-1||
+Leadership|Self|0|6|0|-1||
+Leaping|Self|Stat:Might * .5|0|1|0||
+Life Drain|Touch|0|0|2|2||
+Light/Effect|Special|0|3|0|-1||
+Lightning Reflexes|Self|0|3|0|-1||
+Luck|Self|0|0|2|-1||
+Machine Control|Ranged|0|0|1|2||
+Master of Disguise|Self|0|3|0|-1||
+Matter Chameleon|Self|0|0|2|2||
+Mind Blast|Ranged|0|0|1|2||
+Mind Control|Ranged|0|0|2|2||
+Nullify|Zone|0|0|2|2||
+Omni-Power|Special|0|0|3|2||
+Phasing|Self|0|9|0|-1||
+Plasticity|Self|0|0|2|2||
+Polymorph|Ranged|0|0|1|2||
+Portable Storehouse|Self|0|6|0|-1||
+Possession|Ranged|0|0|1|2||
+Power Absorption|Touch|0|0|2|2||
+Power Mimicry|Touch|0|0|2|2||
+Precognition|Self|0|12|0|-1||
+Preparation|Self|0|6|0|-1||
+Psi-Screen|Self|Stat:Willpower * 1|0|1|2||
+Psychometry|Touch|0|9|0|-1||
+Quick Change|Self|0|3|0|-1||
+Radar|Self|0|3|0|-1||
+Regeneration|Self|0|12|0|-1||
+Resistance|Self|Stat:Toughness * 1|0|0.5|2||
+Running|Self|2|0|1|0||2mph/5mph/10mph/25mph/50mph/100mph/250mph/500mph/1kmph/2500mph/5kmph/10kmph/25kmph/50kmph/100kmph/250kmph/500kmph/1mmph/2mmph/5mmph/10mmph/25mmph/50mmph/100mmph
+Sense, Acute|Self|Stat:Perception * 1|0|0.5|0||
+Separation|Self|0|3|0|-1||
+Shockwave|Zone|0|0|0.5|2||
+Shrinking|Self|0|0|2|2||
+Slay|Touch|0|0|2|2||
+Slick|Zone|0|0|1|2||
+Speak with Dead|Self|0|0|2|-1||
+Spinning|Self|0|0|1|2||
+Star Gate|Self|0|3|0|-1||
+Stretching|Self|0|2|0|-1||
+Strike|Touch|Stat:Might * .5|0|1|2||
+Stun|Ranged|0|0|1|2||
+Summoning|Special|0|0|1|-1||2/2/5/5/5/10/10/10/25/25/25/50/50/50/100/100/10/250/250/250/500/500/500/1000/1000/1000
+Super Agility|Self|Stat:Agility * 1|0|1|2||
+Super Intellect|Self|Stat:Intellect * 1|0|1|2||
+Super Might|Self|Stat:Might * 1|0|1|2||
+Super Perception|Self|Stat:Perception * 1|0|1|2||
+Super Senses|Self|Stat:Perception * 1|0|0|0||
+Super Speed|Self|0|0|3|2||2mph/5mph/10mph/25mph/50mph/100mph/250mph/500mph/1kmph/2500mph/5kmph/10kmph/25kmph/50kmph/100kmph/250kmph/500kmph/1mmph/2mmph/5mmph/10mmph/25mmph/50mmph/100mmph
+Super Toughness|Self|Stat:Toughness * 1|0|1|2||
+Super Willpower|Self|Stat:Willpower * 1|0|1|2||
+Swimming|Self|0|0|0.5|-1||2mph/5mph/10mph/25mph/50mph/100mph/250mph/500mph/1kmph/2500mph/5kmph/10kmph/25kmph/50kmph/100kmph/250kmph/500kmph/1mmph/2mmph/5mmph/10mmph/25mmph/50mmph/100mmph
+Swing Line|Self|0|0|0.5|-1||2mph/5mph/10mph/25mph/50mph/100mph/250mph/500mph/1kmph/2500mph/5kmph/10kmph/25kmph/50kmph/100kmph/250kmph/500kmph/1mmph/2mmph/5mmph/10mmph/25mmph/50mmph/100mmph
+Telekinesis|Ranged|0|0|2|2||
+Telepathy|Ranged|0|0|1|2||
+Teleportation|Self|0|0|1|0||100 ft/250 ft/500 ft/1000 ft/2500 ft/1 mi/2 mi/5 mi/10 mi/25 mi/50 mi/100 mi/250 mi/500 mi/1k mi/ 2.5k mi/5k mi/10k mi/25k mi/50k mi/100k mi/250k mi/500k mi/1000k mi
+Time Stop|Zone|0|0|3|-1||
+Time Travel|Self|0|3|0|-1||
+Total Recall|Self|0|3|0|-1||
+Tracer|Touch|0|3|0|-1||
+Transformation, Animals|Self|0|0|2|2||
+Transformation, Doppleganger|Self|0|6|0|-1||
+Transformation, Objects|Self|0|0|2|2||
+Transformation, Shapes|Self|0|0|2|2||
+Transmutation|Touch|0|0|2|2||
+Tunneling|Self|0|0|1|0||2mph/5mph/10mph/25mph/50mph/100mph/250mph/500mph/1kmph/2500mph/5kmph/10kmph/25kmph/50kmph/100kmph/250kmph/500kmph/1mmph/2mmph/5mmph/10mmph/25mmph/50mmph/100mmph
+Two-Dimensional|Self|0|6|0|-1||
+Two-Fisted|Self|0|3|0|-1||
+Vanish|Self|0|3|0|-1||
+Ventriloquism|Self|0|3|0|-1||
+Wall-Crawling|Self|0|0|0.5|-1||
+Weakness Detection|Self|0|6|0|-1||
+Energy Wall|Ranged|0|0|2|2||Custom
+Enhanced Reflexes|Self|0|0|1|-1||Custom; +2 Edge per level

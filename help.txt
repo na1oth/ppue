@@ -1,0 +1,54 @@
+General Usage instructions
+- The data files are updated to match the latest "errata" at this time (2.1).
+- Abilities and Talents are forced to be within the default package ("none") and Trait Cap, defaulting from 1d - 12d for 18 pts. 
+- You can pick an image to use by clicking on the default image and picking an image file. 
+	- It does not store the actual image (currently).  It stores the filename so if you move that image, you'll cause an issue on reload. 
+- Powers, Flaws, Perks, and Gear have a dropdown combomenu to add additional abilities.
+- The hero point cost of an ability is shows in brackets ([]).  If it has a ^, the cost is per level, otherwise it's a flat add.
+- The ^ may be a strange choice per level, but / wasn't as easy to pick out.  I'm open to suggestions.
+- The * denotes an ability that involves (adds/costs) Resolve.
+- The red X removes that ability
+- To edit an ability (including adding levels), you need to single or double click on it.
+- The edit dialog shows the final version that will go on your character sheet at the top.
+- The edit dialog has a "Notes" line to add short comments to the end of a trait. 
+- The edit dialog only shows level for leveled abilities
+- The edit dialog Source defaults to Super for powers, but can be changed to the list of defaults in the book.
+- The edit dialog Pick Pros/Cons is a dropdown to add modifiers.
+- The edit dialog modifier list box has edit, delete (red X), and up/down arrows for rearranging the list.
+- The modifier list up/down arrows work visually, but do not trigger an update to the character sheet until you do an edit or delete. (bug)
+- The edit dialog "Done" will exit the window.  There is no backout - any change made in this window takes effect as you do it.
+- The list of Pros/Cons will show power specific modifiers first, then the general list. I had to rename a few to make every key unique. 
+- I've added any custom abilities I allow at the end of each selection list.  It's usually fairly obvious since it breaks the sorting patterns. 
+
+Notes on how to do specific things:
+- Boost is treated as a "Pro/Con" worth 0 points.  Pick a second copy of the power you want to boost.
+   - Powers with boost will not validate the level cap correction since they start from level 1 instead of the existing power level.
+   - There are power entries for (Super) Abilities (Attributes), so you can assign modifiers like Boost that are based on the existing attribute.
+- Overkill can be applied to Super Might, which has a base value of Might.
+- For Energy Aborption, Kinetic is a Pro that needs to be taken first to make the cost 3/lvl. 
+- OmniPower defaults to "Narrow". Broad as well as the specific examples are treated as a Pro. You can use editing to consolidate as desired.
+- I divided Super Senses into "Acute Sense" which is based on Perception and leveled, and "Super Senses".
+- Super Senses doesn't do anything until you select which additional senses you have from a list.  
+- I moved Specialities to Perks, since they don't get modifiers and Perks is a much shorter list to sort through.
+- You can add additional, custom modifiers using the button beside delete in the modifier list. 
+- You can modify everything in the Pro/Con listbox by highlighting and cicking again or on the edit button at the top of the window.
+	- This feature is to specify types, clean up extra text, or just make it look better. 
+	- You can modify the point value in the brackets [], but generally should not as the program calculates values using these numbers.
+	- Where it says "Pick" you're intended to modify that to be the value.  It's a reminder to customize as required.
+- For non-combat equipment, I created a generic "Equipment" tag.  You can customize the "Specify Type" or add another custom modifier.
+
+Here's a list of things the program does not do or that I'd like to eventually add. 
+- I haven't implemented any level cap exceptions (such as recommended for Overkill).  
+- Store the image as data rather than keeping it as a separate file. 
+- Implement the new Martial Arts Pro from the FAQ 
+- I haven't added any support for building HQs or Vehicles.  Sidekicks, pets, and other things can be built as separate characters.:w
+- Show the highest attribute replacement available
+- Set base power rank abilities from other powers
+- Jump w/typing - yea, the combo lists are long
+- Category filtering - yea, the combo lists are long
+- Print PDF (on my list to add)
+
+Bugs
+- The modifier list doesn't validate to see if that modifier should be applied to that ability. 
+- The modifier list up/down arrows work visually, but do not trigger an update to the character sheet until you do an edit or delete.
+- Created modifiers aren't being added unless you do an edit or delete afterwards

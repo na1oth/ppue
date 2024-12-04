@@ -44,7 +44,7 @@ Form, Gas|Self|0|6|0|-1||
 Form, Liquid|Self|0|12|0|-1||
 Form, Solid|Self|0|0|2|2||
 Gestalt|Self|0|3|0|-1||
-Growth|Self|0|0|1|2||7 ft/8 ft/9 ft/10 ft/12 ft/15 ft/30 ft/25 ft/30 ft/40 ft/50 ft/60 ft/75 ft/100 ft/125 ft/150 ft/200 ft/250 ft/300 ft/400 ft/500 ft/600 ft/800 ft/1000 ft
+Growth|Self|0|0|1|2||7 ft/8 ft/9 ft/10 ft/12 ft/15 ft/20 ft/25 ft/30 ft/40 ft/50 ft/60 ft/75 ft/100 ft/125 ft/150 ft/200 ft/250 ft/300 ft/400 ft/500 ft/600 ft/800 ft/1000 ft
 Hard to Kill|Self|0|1|0|-1||
 Healing|Touch|0|0|1|2||
 Hibernation|Self|0|1|0|-1||
@@ -124,6 +124,7 @@ Tunneling|Self|0|0|1|0||2mph/5mph/10mph/25mph/50mph/100mph/250mph/500mph/1kmph/2
 Two-Dimensional|Self|0|6|0|-1||
 Two-Fisted|Self|0|3|0|-1||
 Vanish|Self|0|3|0|-1||
+Variant|Self|0|3|0|-1||Specify
 Ventriloquism|Self|0|3|0|-1||
 Wall-Crawling|Self|0|0|0.5|-1||
 Weakness Detection|Self|0|6|0|-1||

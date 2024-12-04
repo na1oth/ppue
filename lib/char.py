@@ -1,4 +1,5 @@
 import math
+import numpy
 import re
 import wx 
 import wx.adv
@@ -17,6 +18,8 @@ To be done
 - Attributes derived from powers
 - How to do martial arts (strike defaults to 1/2 Agility)
 - getBase should resolve power levels
+- anycache
+- pictures stored as part of the sav file
 
 '''
 
@@ -102,6 +105,9 @@ class EditItemDiag(wx.Dialog):
 		events =  [ wx.EVT_LIST_DELETE_ITEM, wx.EVT_LIST_END_LABEL_EDIT]
 		for evt in events:
 			self.w['modlist'].Bind(evt, self.updateModlist)
+		self.w['modlist'].GetNewButton().Bind(wx.EVT_BUTTON, self.updateModlist)
+		self.w['modlist'].GetDownButton().Bind(wx.EVT_BUTTON, self.updateModlist)
+		self.w['modlist'].GetUpButton().Bind(wx.EVT_BUTTON, self.updateModlist)
 		gbs.Add(self.w['modlist'], pos=(row,0), span=(1, 2), flag = wx.EXPAND)
 		row += 1
 
@@ -124,11 +130,20 @@ class EditItemDiag(wx.Dialog):
 
 	def updateModlist(self, event):
 		wx.CallAfter(self.AfterRun)
+		event.Skip()
 	
 	def AfterRun(self):
 		print(f"Modlist {self.w['modlist'].GetStrings()}")
-		self.rData[d.index('modlist')] = ("; ".join(self.w['modlist'].GetStrings()))  + "; "
+		# We're going to modify the list and also write it to our local variables
+		modlist = self.w['modlist'].GetStrings()
+		#for idx, mod in enumerate(modlist):
+			#if (modlist[idx] == ""): modlist[idx] = "Custom Modifier"
+		# Write to modlist variable and full row back to PC object
+		self.rData[d.index('modlist')] = "; ".join(modlist) + "; "
 		self.PC.list[self.py.area][self.row] = self.rData
+		# Put the update modlist back into the widget
+		modlist = self.w['modlist'].SetStrings(modlist)
+		# Refresh diag w/updated list
 		self.updateDiag()
 
 	def updateDiag(self):
@@ -227,6 +242,7 @@ class CharInfo():
 	def clearData(self):
 		self.filename 		= ""
 		self.image		= "icons/hero.png"
+		
 		self.stat.clear() 
 		for area in self.list.keys():
 			self.list[area].clear()
@@ -350,13 +366,21 @@ class CharWin(wx.ScrolledWindow):
 		dialog = wx.FileDialog(None, "Choose a file", wildcard=wildcard, style=wx.FD_OPEN)
 		if dialog.ShowModal() == wx.ID_OK:
 			self.PC.image = dialog.GetPath()
-			self.setImage()
+			self.setImage( file = self.PC.image )
 		dialog.Destroy() 
 
 	### Updates the bitmap in the panel to current self.PC.image file
-	def setImage(self):
-		self.lbl['bmp'].LoadFile(self.PC.image, wx.BITMAP_TYPE_ANY)
-		self.lbl['bmp'].Rescale(self.lbl['bmp'], (417, 773))
+	def setImage(self, file=""):
+		if (hasattr(self.PC, "buffer") ): 
+			self.lbl['bmp'].CopyFromBuffer(self.PC.buffer)
+		else: 
+			self.PC.buffer = numpy.empty((420, 775, 4), numpy.uint8) 
+
+		if (file):
+			self.lbl['bmp'].LoadFile(self.PC.image, wx.BITMAP_TYPE_ANY)
+			self.lbl['bmp'].Rescale(self.lbl['bmp'], (420, 775))
+			self.lbl['bmp'].CopyToBuffer(self.PC.buffer)
+
 		self.lbl['pic'].SetBitmap( self.lbl['bmp'] )
 
 	### Create lists for drop downs
@@ -400,13 +424,12 @@ class CharWin(wx.ScrolledWindow):
 
 		# Verify widgets have been created
 		if (self.spin):
-			self.setImage()
+			self.setImage( file="icons/hero.png" )
 			self.reDrawChar()
 
 	### set image and redraw rest of fields
 	def loadChar(self):
 		self.setImage()
-
 		self.reDrawChar()
 
 	### Draw section for powers, perks, flaws, gear

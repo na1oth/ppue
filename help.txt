@@ -28,7 +28,8 @@ Notes on how to do specific things:
 - For Energy Aborption, Kinetic is a Pro that needs to be taken first to make the cost 3/lvl. 
 - OmniPower defaults to "Narrow". Broad as well as the specific examples are treated as a Pro. You can use editing to consolidate as desired.
 - I divided Super Senses into "Acute Sense" which is based on Perception and leveled, and "Super Senses".
-- Super Senses doesn't do anything until you select which additional senses you have from a list.  
+- Super Senses doesn't add any senses.  Each Super Sense is actually listed as an Pro option for the ability.  The benefit of this approach is that 
+	your Super Senses are on one line and don't clutter up the list of powers. 
 - I moved Specialities to Perks, since they don't get modifiers and Perks is a much shorter list to sort through.
 - You can add additional, custom modifiers using the button beside delete in the modifier list. 
 - You can modify everything in the Pro/Con listbox by highlighting and cicking again or on the edit button at the top of the window.
